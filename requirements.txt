@@ -1,0 +1,9 @@
+torch==2.2.2
+numpy==1.26.4
+transformers==4.39.3
+pandas==2.2.2
+scikit-learn==1.5.1
+seaborn==0.13.2
+spacy==3.7.0
+wordcloud==1.9.3
+matplotlib==3.9.2

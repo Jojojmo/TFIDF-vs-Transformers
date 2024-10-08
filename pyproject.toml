@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "transformers_test"
+version = "0.1.0"
+description = ""
+authors = ["João M <jmo.nick@outlook.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+torch = "2.2.2"
+numpy = "1.26.4"
+transformers = "^4.39.3"
+pandas = "^2.2.2"
+scikit-learn = "^1.5.1"
+seaborn = "^0.13.2"
+spacy = "^3.7.0"
+wordcloud = "^1.9.3"
+matplotlib = "^3.9.2"
+
+
+
+
+
+
+[tool.poetry.group.dev.dependencies]
+ipykernel = "^6.29.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
